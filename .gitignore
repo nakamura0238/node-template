@@ -1,0 +1,13 @@
+node_modules
+.env
+
+# nginx /nginx
+/nginx/error
+
+# データベース /db
+/db/logs
+/db/mysql_data
+
+# 残すファイル
+!package-lock.json
+!*.lock
